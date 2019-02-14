@@ -25,7 +25,7 @@ namespace hands_on_netcore.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<IEnumerable<Produto>> GetById(int id)
+        public ActionResult<Produto> GetById(int id)
         {
             return Ok(_ProdutoService.ObterProdutoPorId(id));
         }

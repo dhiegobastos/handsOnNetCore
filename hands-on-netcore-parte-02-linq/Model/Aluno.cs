@@ -12,6 +12,5 @@ namespace hands_on_netcore.Model
         public string Sexo { get; set; }
         public int Idade { get; set; }
         public int Nota { get; set; }
-
     }
 }
